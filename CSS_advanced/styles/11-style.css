@@ -4,7 +4,7 @@ html {
 }
 
 body {
-	color: var(--text-color);
+	color: #161616;
 	font-family: var(--font-family-base);
 	font-size: var(--font-size-medium);
 	font-weight: var(--font-weight-regular);
@@ -36,10 +36,10 @@ body {
 	--line-height-big: 1.8;
 
 	--section-header-align: center;
-	--section-tagline-transform: uppercase;
 }
 
 a {
+	color: var(--text-color);
 	text-decoration: none;
 }
 
@@ -54,13 +54,12 @@ a {
 .section-header {
 	text-align: var(--section-header-align);
 }
+
 h1,h2,h3,h4,h5,h6 {
 	font-family: var(--font-family-title);
 	font-weight: var(--font-weight-bold);
 }
-.section-tagline {
-	font-family: font-family-title;
-	font-weight: font-weight-bold;
-	text-transform: var(--section-tagline-transform);
-}
 
+.section-tagline {
+	color: var(--color-primary);
+}
