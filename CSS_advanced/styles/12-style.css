@@ -4,7 +4,7 @@ html {
 }
 
 body {
-	color: var(--text-color);
+	color: #161616;
 	font-family: var(--font-family-base);
 	font-size: var(--font-size-medium);
 	font-weight: var(--font-weight-regular);
@@ -37,12 +37,12 @@ body {
 
 	--section-header-align: center;
 	--section-tagline-transform: uppercase;
-
 	--section-title-margin: 0;
 	--section-title-color: var(--color-black);
 }
 
 a {
+	color: var(--text-color);
 	text-decoration: none;
 }
 
@@ -58,6 +58,20 @@ a {
 	text-align: var(--section-header-align);
 }
 
+.section-tagline {
+	color: var(--color-primary);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: var(--font-family-title);
+	font-weight: var(--font-weight-bold);
+}
+
 .section-title {
 	font-family: var(--font-family-title);
 	font-size: var(--font-size-xx-large);
@@ -67,14 +81,7 @@ a {
 }
 
 .section-tagline {
-	color: var(--color-primary);
-	font-family: font-family-title;
-	font-weight: font-weight-bold;
-	text-transform: var(--section-tagline-transform);
-}
-
-h1,h2,h3,h4,h5,h6 {
 	font-family: var(--font-family-title);
 	font-weight: var(--font-weight-bold);
+	text-transform: var(--section-tagline-transform);
 }
-
